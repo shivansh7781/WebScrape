@@ -1,0 +1,14 @@
+using python
+read Amazon.html and parse it with beautifulsoup
+find all
+div with class="puis-card-container s-card-container s-overflow-hidden aok-relative puis-include-content-margin puis puis-v2laelakto18k82o7cy47f2sjt0 s-latency-cf-section puis-card-border"
+
+for all the div
+try find span class="a-size-medium a-color-base a-text-normal" and store it in Names
+except Names = ""
+try find span class="a-price-whole" and store it in Prices
+except Prices = ""
+try find span with class="a-icon-alt" and store it in Reviews
+except Reviews =""
+
+open an excel file and write Names, Prices, Reviews in it
